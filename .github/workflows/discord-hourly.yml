@@ -2,8 +2,8 @@ name: Resumo Horário Discord
 
 on:
   schedule:
-    - cron: '0 * * * *' # Roda no minuto zero de toda hora
-  workflow_dispatch: # Permite rodar manualmente clicando em um botão no GitHub Actions
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   notify:
@@ -12,5 +12,5 @@ jobs:
       - name: Enviar aviso para o Discord
         run: |
           curl -H "Content-Type: application/json" \
-          -d '{"content": "✅ **Status Horário:** O [XYZTools](https://xyztools.app/) segue ativo e sendo monitorado pelo Upptime. Histórico completo na nossa [Página de Status](https://jhonsrodrigues.github.io/status.xyztools.app)."}' \
+          -d '{"content": "✅ **Status Horário:** O XYZ Tools encontra-se ativo e funcionando normalmente."}' \
           ${{ secrets.NOTIFICATION_DISCORD_WEBHOOK_URL }}
