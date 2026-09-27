@@ -22,6 +22,12 @@ on:
       - "api/**"
       - "history/**"
       - "graphs/**"
+      - "src/**"
+      - "public/**"
+      - "package.json"
+      - "package-lock.json"
+      - "astro.config.mjs"
+      - ".github/workflows/site.yml"
   schedule:
     - cron: "0 1 * * *"
   repository_dispatch:
