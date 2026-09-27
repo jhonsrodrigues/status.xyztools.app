@@ -5,11 +5,10 @@ sites:
     url: https://xyztools.app/
 
 assignees:
-  - seu-usuario-do-github
+  - jhonsrodrigues
 
 status-website:
   theme: light
-  # baseUrl: /xyztools-status # Descomente essa linha se a página ficar no domínio padrão do github.io
 
 secrets:
   - NOTIFICATION_DISCORD
