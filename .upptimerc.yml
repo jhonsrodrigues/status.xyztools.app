@@ -9,6 +9,12 @@ assignees:
 
 status-website:
   theme: light
+  # Se for usar o link padrão do GitHub (https://jhonsrodrigues.github.io/status.xyztools.app), use a linha abaixo:
+  baseUrl: /status.xyztools.app
+  
+  # Se for configurar o domínio personalizado status.xyztools.app no GitHub Pages, 
+  # apague (ou comente) a linha baseUrl acima e descomente a linha cname abaixo:
+  # cname: status.xyztools.app
 
 secrets:
   - NOTIFICATION_DISCORD
