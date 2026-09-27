@@ -42,15 +42,15 @@ npm run preview
 
 ## Estrutura
 
-| Caminho | Responsabilidade |
-| --- | --- |
-| `src/pages/index.astro` | Página pública e leitura do resumo do Upptime |
-| `src/styles/global.css` | Sistema visual, responsividade e animações |
-| `history/` | Histórico de disponibilidade e última verificação |
-| `api/` | Métricas de uptime e tempo de resposta |
-| `graphs/` | Gráficos gerados pelo Upptime |
-| `.upptimerc.yml` | Serviços monitorados e configurações do Upptime |
-| `.github/workflows/` | Monitoramento, atualização dos dados e deploy |
+| Caminho                 | Responsabilidade                                  |
+| ----------------------- | ------------------------------------------------- |
+| `src/pages/index.astro` | Página pública e leitura do resumo do Upptime     |
+| `src/styles/global.css` | Sistema visual, responsividade e animações        |
+| `history/`              | Histórico de disponibilidade e última verificação |
+| `api/`                  | Métricas de uptime e tempo de resposta            |
+| `graphs/`               | Gráficos gerados pelo Upptime                     |
+| `.upptimerc.yml`        | Serviços monitorados e configurações do Upptime   |
+| `.github/workflows/`    | Monitoramento, atualização dos dados e deploy     |
 
 ## Fluxo de dados
 
@@ -80,6 +80,6 @@ O site público é publicado pelo workflow [Static Site CI](.github/workflows/si
 <!-- prettier-ignore -->
 | URL | Status | History | Response Time | Uptime |
 | --- | ------ | ------- | ------------- | ------ |
-| <img alt="" src="https://icons.duckduckgo.com/ip3/xyztools.app.ico" height="13"> [XYZTools](https://xyztools.app/) | 🟩 Up | [xyz-tools.yml](https://github.com/jhonsrodrigues/status.xyztools.app/commits/HEAD/history/xyz-tools.yml) | 230ms | 100.00% |
+| <img alt="" src="https://icons.duckduckgo.com/ip3/xyztools.app.ico" height="13"> [XYZTools](https://xyztools.app/) | 🟩 Up | [xyz-tools.yml](https://github.com/jhonsrodrigues/status.xyztools.app/commits/HEAD/history/xyz-tools.yml) | <details><summary><img alt="Response time graph" src="./graphs/xyz-tools/response-time-week.png" height="20"> 244ms</summary><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="Response time 244" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fresponse-time.json"></a><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="24-hour response time 244" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fresponse-time-day.json"></a><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="7-day response time 244" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fresponse-time-week.json"></a><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="30-day response time 244" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fresponse-time-month.json"></a><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="1-year response time 244" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fresponse-time-year.json"></a></details> | <details><summary><a href="https://status.xyztools.app/history/xyz-tools">100.00%</a></summary><a href="https://status.xyztools.app/history/xyz-tools"><img alt="All-time uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fuptime.json"></a><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="24-hour uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fuptime-day.json"></a><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="7-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fuptime-week.json"></a><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="30-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fuptime-month.json"></a><br><a href="https://status.xyztools.app/history/xyz-tools"><img alt="1-year uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjhonsrodrigues%2Fstatus.xyztools.app%2FHEAD%2Fapi%2Fxyz-tools%2Fuptime-year.json"></a></details>
 
 <!--end: status pages-->
